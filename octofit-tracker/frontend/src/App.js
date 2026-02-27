@@ -20,9 +20,12 @@ function App() {
       <div className="card shadow-sm border-0 mb-4">
         <div className="card-body p-4 p-md-5">
           <div className="d-flex flex-column flex-md-row justify-content-between gap-3 align-items-md-center mb-4">
-            <div>
-              <h1 className="display-6 fw-semibold mb-1">OctoFit Tracker</h1>
-              <p className="text-secondary mb-0">Track progress, teams, and fitness goals in one place.</p>
+            <div className="app-brand">
+              <img src="/octofitapp-small.png" alt="OctoFit logo" className="app-logo" />
+              <div>
+                <h1 className="display-6 fw-semibold mb-1 app-title">OctoFit Tracker</h1>
+                <p className="mb-0 app-subtitle">Track progress, teams, and fitness goals in one place.</p>
+              </div>
             </div>
             <a
               className="btn btn-outline-primary"
