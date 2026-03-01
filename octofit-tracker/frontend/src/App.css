@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(180deg, var(--bs-info-bg-subtle) 0%, var(--bs-primary-bg-subtle) 100%);
+  color: var(--bs-gray-900);
+}
+
+.app-shell {
+  max-width: 1100px;
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
+
+.app-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border-radius: 0.75rem;
+  background-color: var(--bs-light);
+  border: 1px solid var(--bs-border-color-translucent);
+  padding: 0.3rem;
+}
+
+.app-title {
+  color: var(--bs-primary-text-emphasis);
+}
+
+.app-subtitle {
+  color: var(--bs-secondary-color);
+}
+
+.nav-tabs .nav-link {
+  border: 1px solid var(--bs-primary-border-subtle);
+  background-color: var(--bs-primary-bg-subtle);
+  color: var(--bs-primary-text-emphasis);
+  font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+  border-color: var(--bs-primary);
+  color: var(--bs-primary);
+}
+
+.nav-tabs .nav-link.active {
+  border-color: var(--bs-primary);
+  background-color: var(--bs-primary);
+  color: var(--bs-white);
+}
+
+.data-section .card {
+  border-radius: 0.9rem;
+}
+
+.data-section h2,
+.modal-title {
+  color: var(--bs-primary-text-emphasis);
+}
+
+.data-section a,
+.card a {
+  color: var(--bs-link-color);
+}
+
+.data-section a:hover,
+.card a:hover {
+  color: var(--bs-link-hover-color);
+}
+
+.data-section .table th {
+  white-space: nowrap;
+  background-color: var(--bs-primary-bg-subtle);
+  color: var(--bs-primary-text-emphasis);
+}
+
+.data-section .table {
+  --bs-table-striped-bg: var(--bs-light-bg-subtle);
+  --bs-table-hover-bg: var(--bs-info-bg-subtle);
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-bg: var(--bs-primary-text-emphasis);
+  --bs-btn-hover-border-color: var(--bs-primary-text-emphasis);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--bs-primary-text-emphasis);
+  --bs-btn-border-color: var(--bs-primary-border-subtle);
+  --bs-btn-hover-bg: var(--bs-primary);
+  --bs-btn-hover-border-color: var(--bs-primary);
+}
+
+.modal {
+  z-index: 1060;
+}
+
+.modal-backdrop {
+  z-index: 1050;
+}
